@@ -1,6 +1,4 @@
-const express = require('express')
 const path = require('path');
-const router = express-router('')
 const main = {
     index: (req, res) => {
         res.render('index', {
@@ -19,4 +17,4 @@ const main = {
     }
 }
 
-module.exports= router;
+module.exports= main;
