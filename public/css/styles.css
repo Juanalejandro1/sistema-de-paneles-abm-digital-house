@@ -3,6 +3,49 @@ body{
     font-family: sans-serif;
     height: 100vh;
 }
+/*index */
+h1{
+    text-align: center;
+}
+
+h2{
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+main{
+    text-align: center;
+    padding: 30px;
+}
+main.section.main {
+    padding: 38px;
+}
+
+div .info {
+    padding-bottom: 10px;
+}
+
+
+.boton{
+    background-color: #D1FF13;
+    padding: 11px;
+    border-radius: 6px;
+    text-decoration: auto;
+    color: black;
+}
+
+p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+/* end index*/
+
 /* header */
 header{
     background-color: #6424B5;
@@ -82,4 +125,14 @@ footer {
 
 .aviso{
     text-align: center;
+}
+
+button{
+    background-color: #24AAB5;
+    border: none;
+    margin: 3%;
+    border-radius: 5px;
+    padding: 9px 35px;
+    text-align: center;
+    font-size: 16px;
 }
